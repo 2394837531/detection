@@ -1,0 +1,32 @@
+Looking in indexes: https://mirrors.bfsu.edu.cn/pypi/web/simple
+Collecting imgaug
+  Downloading https://mirrors.bfsu.edu.cn/pypi/web/packages/66/b1/af3142c4a85cba6da9f4ebb5ff4e21e2616309552caca5e8acefe9840622/imgaug-0.4.0-py2.py3-none-any.whl (948 kB)
+Requirement already satisfied: Shapely in c:\users\23948\anaconda3\envs\paddle_env\lib\site-packages (from imgaug) (1.8.5.post1)
+Requirement already satisfied: opencv-python in c:\users\23948\anaconda3\envs\paddle_env\lib\site-packages (from imgaug) (4.5.5.64)
+Requirement already satisfied: scipy in c:\users\23948\anaconda3\envs\paddle_env\lib\site-packages (from imgaug) (1.5.4)
+Requirement already satisfied: six in c:\users\23948\anaconda3\envs\paddle_env\lib\site-packages (from imgaug) (1.16.0)
+Requirement already satisfied: matplotlib in c:\users\23948\anaconda3\envs\paddle_env\lib\site-packages (from imgaug) (3.3.4)
+Collecting imageio
+  Downloading https://mirrors.bfsu.edu.cn/pypi/web/packages/49/f9/4986d7ea281875be92f7780b1d77c1e2e1d1b8f6669c9bb784065c7777cc/imageio-2.15.0-py3-none-any.whl (3.3 MB)
+Collecting scikit-image>=0.14.2
+  Downloading https://mirrors.bfsu.edu.cn/pypi/web/packages/09/e2/39fd2aad9858c764bc260acdf4bb63f8096415ee2b782cc2f7ea47a12c79/scikit_image-0.17.2-cp36-cp36m-win_amd64.whl (11.5 MB)
+Requirement already satisfied: numpy>=1.15 in c:\users\23948\anaconda3\envs\paddle_env\lib\site-packages (from imgaug) (1.19.5)
+Requirement already satisfied: Pillow in c:\users\23948\anaconda3\envs\paddle_env\lib\site-packages (from imgaug) (8.4.0)
+Collecting PyWavelets>=1.1.1
+  Downloading https://mirrors.bfsu.edu.cn/pypi/web/packages/30/9f/60c3b80bcefc7e3cbc76c0925e05159312cae0f3e8bf822cf50ba30b5312/PyWavelets-1.1.1-cp36-cp36m-win_amd64.whl (4.2 MB)
+Collecting networkx>=2.0
+  Downloading https://mirrors.bfsu.edu.cn/pypi/web/packages/f3/b7/c7f488101c0bb5e4178f3cde416004280fd40262433496830de8a8c21613/networkx-2.5.1-py3-none-any.whl (1.6 MB)
+Collecting tifffile>=2019.7.26
+  Downloading https://mirrors.bfsu.edu.cn/pypi/web/packages/42/6b/93a8ee61c6fbe20fa9c17928bd3b80484902b7fd454cecaffba42f5052cb/tifffile-2020.9.3-py3-none-any.whl (148 kB)
+Requirement already satisfied: cycler>=0.10 in c:\users\23948\anaconda3\envs\paddle_env\lib\site-packages (from matplotlib->imgaug) (0.11.0)
+Requirement already satisfied: python-dateutil>=2.1 in c:\users\23948\anaconda3\envs\paddle_env\lib\site-packages (from matplotlib->imgaug) (2.9.0.post0)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\23948\anaconda3\envs\paddle_env\lib\site-packages (from matplotlib->imgaug) (1.3.1)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3 in c:\users\23948\anaconda3\envs\paddle_env\lib\site-packages (from matplotlib->imgaug) (3.1.4)
+Collecting decorator<5,>=4.3
+  Downloading https://mirrors.bfsu.edu.cn/pypi/web/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Installing collected packages: decorator, tifffile, PyWavelets, networkx, imageio, scikit-image, imgaug
+  Attempting uninstall: decorator
+    Found existing installation: decorator 5.1.1
+    Uninstalling decorator-5.1.1:
+      Successfully uninstalled decorator-5.1.1
+Successfully installed PyWavelets-1.1.1 decorator-4.4.2 imageio-2.15.0 imgaug-0.4.0 networkx-2.5.1 scikit-image-0.17.2 tifffile-2020.9.3
